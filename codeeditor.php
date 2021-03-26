@@ -35,6 +35,9 @@
       case 'cpp':
         $ext = 'c_cpp';
         break;
+      case 'htaccess':
+        $ext = 'apache_conf';
+        break;
     }
 
     $isselected = false;
