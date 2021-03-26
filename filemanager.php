@@ -1,4 +1,4 @@
- <?php
+<?php
   /**
    * This is a modified version of PHP File Manager:
    * https://github.com/alexantr/filemanager
