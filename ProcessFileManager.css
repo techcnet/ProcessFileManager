@@ -33,7 +33,11 @@ font-size:small;
 
 .fm_donate{
 margin-top:10px;
-text-align:center;
+}
+
+.fm_donate img{
+display:block;
+margin:auto;
 }
 
 #wrapper a{color:#296ea3;text-decoration:none}
