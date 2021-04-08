@@ -7,7 +7,7 @@
  * @author tech-c.net
  * @license Licensed under GNU/GPL v2
  * @link https://tech-c.net/posts/file-manager-for-processwire/
- * @version 1.0.3
+ * @version 1.0.4
  * 
  * @see Forum Thread: https://processwire.com/talk/topic/25339-processfilemanager/
  * @see Donate: https://www.paypal.me/techcnet/
@@ -23,7 +23,7 @@ class ProcessFileManager extends Process implements ConfigurableModule {
       'summary'  => 'Module to manager files and folders from the CMS backend.',
       'href'     => 'https://tech-c.net/posts/file-manager-for-processwire/',
       'author'   => 'tech-c.net',
-      'version'  => 103,
+      'version'  => 104,
       'icon'     => 'folder',
       'singular' => true);
   }
