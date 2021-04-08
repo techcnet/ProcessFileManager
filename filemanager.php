@@ -241,6 +241,9 @@ class FileManager {
         header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
         header('Pragma: public');
         header('Content-Length: '.filesize($path.'/'.$dl));
+        if (ob_get_level()) {
+          ob_end_clean();
+        }
         readfile($path.'/'.$dl);
         exit;
       } else {
