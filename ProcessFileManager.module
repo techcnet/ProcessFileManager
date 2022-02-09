@@ -10,7 +10,7 @@
  * @version 1.0.5
  * 
  * @see Forum Thread: https://processwire.com/talk/topic/25339-processfilemanager/
- * @see Donate: https://www.paypal.me/techcnet/
+ * @see Donate: https://tech-c.net/donation/
  */
 
 class ProcessFileManager extends Process implements ConfigurableModule {
@@ -122,7 +122,7 @@ class ProcessFileManager extends Process implements ConfigurableModule {
     $result .= '</div>';
 
     $result .= '<div class="fm_donate">';
-      $result .= '<a target="_blank" href="https://www.paypal.me/techcnet/"><img src="'.$module_url.'/donate.png" /></a>';
+      $result .= '<a target="_blank" href="https://tech-c.net/donation/"><img src="'.$module_url.'/donate.png" /></a>';
     $result .= '</div>';
     
     return $result;
