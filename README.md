@@ -1,5 +1,8 @@
 # File Manager for ProcessWire
 
+![GitHub](https://img.shields.io/github/license/techcnet/ProcessFileManager)
+![GitHub last commit](https://img.shields.io/github/last-commit/techcnet/ProcessFileManager)
+
 File Manager for ProcessWire is a module to manager files and folders from the CMS backend. It supports creating, deleting, renaming, packing, unpacking, uploading, downloading and editing of files and folders. The integrated code editor ACE supports highlighting of all common programming languages.
 
 !["Screenshot showing the file manager"](https://tech-c.net/site/assets/files/1199/screenshot.jpg)
