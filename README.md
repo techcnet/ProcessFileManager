@@ -20,8 +20,3 @@ This module uses the JavaScript dragscroll available from: http://github.com/asv
 
 ## PHP File Manager
 This module uses a modified version of PHP File Manager available from: https://github.com/alexantr/filemanager
-
-## Known issue about files containing "index.php" in the name
-Files, containing "index.php" in the name, cannot be opened, renamed or downloaded. This is not a bug in the file-manager or the module. This is a behavior of ProcessWire located in the file /wire/core/PagesRequest.php in line 306. If you want to avoid this problem, comment out the following lines.
-
-!["Screenshot showing the code editor"](https://tech-c.net/site/assets/files/1199/pagesrequest.jpg)
