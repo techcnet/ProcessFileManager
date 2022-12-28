@@ -891,7 +891,7 @@ class FileManager {
       }
       $out .= '<tr>';
       $out .= '<td><label><input type="checkbox" name="file[]" value="'.$this->fm_enc($f).'"></label></td>';
-      $out .= '<td><div class="filename"><a href="'.$this->fm_enc($filelink).'" title="File info"><i class="'.$img.'"></i> '.$this->fm_enc($this->fm_convert_win($f)).'</a>';
+      $out .= '<td><div class="filename"><a href="'.$this->fm_enc($filelink).'" title="File info"><i class="'.$img.'" style="color-scheme:light dark"></i> '.$this->fm_enc($this->fm_convert_win($f)).'</a>';
       if ($is_link) {
         $out .= ' &rarr; <i>'.$this->fm_enc(readlink($path.'/'.$f)).'</i>';
       }
